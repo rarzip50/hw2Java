@@ -22,7 +22,7 @@ public class AddressBookJavaFx extends Application {
 	}
 
 	@Override
-	
+	//comment
 	public void start(Stage primaryStage) throws Exception {
 		Stage[] stages = new Stage[NUMBER_OF_OBJECTS];
 		Scene[] scenes = new Scene[NUMBER_OF_OBJECTS];
