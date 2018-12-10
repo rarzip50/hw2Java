@@ -72,7 +72,7 @@ class TripletonAddressBookPane extends GridPane {
 		}
 	};
 
-	private TripletonAddressBookPane() { // Open or create a random access file
+	public TripletonAddressBookPane() { // Open or create a random access file
 		try {
 			raf = new RandomAccessFile("address.dat", "rw");
 		} catch (IOException ex) {
